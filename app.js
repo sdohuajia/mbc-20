@@ -21,7 +21,7 @@ const message = 'Hello, world!';
 async function postMoltbook(options = {}) {
   const {
     title = "M2 Max Auto Mint",
-    content = 'Steady minting from HK.{"p":"mbc-20","op":"mint","tick":"CLAW","amt":"100"}',
+    content = 'Steady minting from HK.{"p":"mbc-20","op":"mint","tick":"CLAW","amt":"100"} mbc20.xyz',
     submolt = "general",
   } = options;
   const apiKey = getApiKey();
@@ -47,4 +47,5 @@ try {
     console.log("\x1b[31m%s\x1b[0m", `❌  执行出错: ${msg}`);
     console.log("\x1b[31m%s\x1b[0m", "━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\n");
   }
+
 }
